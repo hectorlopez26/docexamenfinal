@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumen del Proyecto MVC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Resumen del Proyecto MVC</h1>
+        <p>El patrón Modelo-Vista-Controlador (MVC) organiza aplicaciones dividiendo responsabilidades entre la lógica de negocio, la interfaz de usuario y el control del flujo. Este proyecto implementa MVC para gestionar enlaces clasificados por categorías, optimizando la interacción entre usuario y base de datos.</p>
+        
+        <div class="image">
+            <img src="img/fuu.avif" alt="Descripción de la imagen 1">
+        </div>
+        
+        <h2>Estructura del Proyecto</h2>
+        <p><strong>Modelo:</strong> Encargado de interactuar con la base de datos y realizar operaciones como consultas a la vista <code>vista_enlaces</code>, que combina las tablas <code>vinculos</code> y <code>categorias</code>.</p>
+        <p><strong>Vista:</strong> Presenta datos al usuario mediante interfaces HTML con estilos de Bootstrap. Muestra resultados en tablas dinámicas según las consultas realizadas.</p>
+        <p><strong>Controlador:</strong> Actúa como intermediario, procesando entradas del usuario y coordinando respuestas entre el modelo y la vista.</p>
+        
+        <div class="image">
+            <img src="ruta/de/tu/imagen2.jpg" alt="Descripción de la imagen 2">
+        </div>
+
+        <h2>Funcionamiento Dinámico</h2>
+        <p>El flujo del sistema sigue estos pasos:</p>
+        <ol>
+            <li>El usuario ingresa parámetros en el formulario (por ejemplo, una palabra clave).</li>
+            <li>El controlador valida los datos y envía consultas al modelo.</li>
+            <li>El modelo interactúa con la base de datos y devuelve los resultados.</li>
+            <li>La vista muestra los datos al usuario en un formato comprensible.</li>
+        </ol>
+        
+        <h2>Ventajas del MVC</h2>
+        <p>El patrón MVC garantiza modularidad, separación de responsabilidades y reutilización de componentes. Esto facilita el mantenimiento y asegura que el sistema sea escalable y flexible para futuras necesidades.</p>
+
+        <div class="image">
+            <img src="ruta/de/tu/imagen3.jpg" alt="Descripción de la imagen 3">
+        </div>
+
+        <h2>Conclusión</h2>
+        <p>El uso de MVC en este proyecto asegura un desarrollo estructurado, eficiente y fácil de mantener, brindando al usuario una experiencia fluida y al desarrollador una arquitectura sólida para crecer y adaptarse a nuevos requisitos.</p>
+    </div>
+</body>
+</html>
